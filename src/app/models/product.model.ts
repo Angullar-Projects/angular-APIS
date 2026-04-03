@@ -6,7 +6,7 @@ export interface Product {
   description: string;
   category: Category;
 }
-
+/**clase base que se encargara de transportar los datos */
 export interface Category{
   id: string;
   name: string;
